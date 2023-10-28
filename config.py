@@ -83,10 +83,7 @@ PING_IMG_URL = getenv(
     "https://graph.org//file/7186b2951f58f188dae8e.jpg",
 )
 
-PLAYLIST_IMG_URL = getenv(
-    "PLAYLIST_IMG_URL",
-    "strings/bgs/alex.png",
-)
+PLAYLIST_IMG_URL = "https://graph.org//file/975e7f46199712ecf440a.jpg"
 
 GLOBAL_IMG_URL = "https://graph.org//file/975e7f46199712ecf440a.jpg"
 
