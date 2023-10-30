@@ -110,7 +110,7 @@ async def play_commnd(
                     forceplay=fplay,
                 )
             except Exception as e:
-              print(f"Error: {e}")
+                print(f"Error: {e}")
                 ex_type = type(e).__name__
                 err = (
                     e
@@ -161,7 +161,7 @@ async def play_commnd(
                     forceplay=fplay,
                 )
             except Exception as e:
-              print(f"Error: {e}")
+                print(f"Error: {e}")
                 ex_type = type(e).__name__
                 err = (
                     e
@@ -318,7 +318,7 @@ async def play_commnd(
                     forceplay=fplay,
                 )
             except Exception as e:
-              print(f"Error: {e}")
+                print(f"Error: {e}")
                 ex_type = type(e).__name__
                 err = (
                     e
@@ -357,7 +357,7 @@ async def play_commnd(
                     forceplay=fplay,
                 )
             except Exception as e:
-              print(f"Error: {e}")
+                print(f"Error: {e}")
                 ex_type = type(e).__name__
                 err = (
                     e
@@ -425,7 +425,7 @@ async def play_commnd(
                 forceplay=fplay,
             )
         except Exception as e:
-          print(f"Error: {e}")
+            print(f"Error: {e}")
             ex_type = type(e).__name__
             err = (
                 e
@@ -571,7 +571,7 @@ async def play_music(client, CallbackQuery, _):
             forceplay=ffplay,
         )
     except Exception as e:
-      print(f"Error: {e}")
+        print(f"Error: {e}")
         ex_type = type(e).__name__
         err = (
             e
@@ -682,7 +682,7 @@ async def play_playlists_command(client, CallbackQuery, _):
             forceplay=ffplay,
         )
     except Exception as e:
-      print(f"Error: {e}")
+        print(f"Error: {e}")
         ex_type = type(e).__name__
         err = (
             e
